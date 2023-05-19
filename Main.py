@@ -1,8 +1,9 @@
-print("==Calculator Console App==")
-print("Made by @CodeSlayer")
+print("==Python Calculator App v0.1==")
+print("Made by https://github.com/BlitzSlayerYT")
 
 while True:
 
+    print()
     num1 = int(input("input the first number > "))
     num2 = int(input("input the second number > "))
     action = input("Calculation(add,sub,times,divide) > ")
@@ -31,8 +32,6 @@ while True:
 
     exit = input("Do you want to exit?(Y/N) > ")
     if exit == "Y":
-        print("exit world")
         break
     else:
-        print()
         continue
